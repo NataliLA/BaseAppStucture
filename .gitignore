@@ -1,13 +1,2 @@
-BaseAndroidApp/bin/AndroidManifest.xml
-BaseAndroidApp/bin/BaseAndroidApp.apk
-BaseAndroidApp/bin/classes.dex
-BaseAndroidApp/bin/dexedLibs/android-support-v4-7c2aaee33834df05fda39d8a4f338dff.jar
-BaseAndroidApp/bin/dexedLibs/android-support-v7-appcompat-9f90180131bec576b41e560db6dc895d.jar
-BaseAndroidApp/bin/dexedLibs/appcompat_v7_4-46fddf350532fa75ae336550ef6ecacb.jar
-BaseAndroidApp/bin/dexedLibs/eventbus-2.0.2-5575b018addd7787d036a69c6a985c22.jar
-BaseAndroidApp/bin/R.txt
-BaseAndroidApp/bin/jarlist.cache
-BaseAndroidApp/bin/res/crunch/drawable-hdpi/ic_launcher.png
-BaseAndroidApp/bin/res/crunch/drawable-xhdpi/ic_launcher.png
-BaseAndroidApp/bin/resources.ap_
-BaseAndroidApp/bin/res/crunch/drawable-mdpi/ic_launcher.png
+BaseAndroidApp/bin/*
+BaseAndroidApp/gen/*
