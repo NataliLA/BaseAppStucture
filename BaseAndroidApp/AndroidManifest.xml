@@ -22,14 +22,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-                <service
+
+        <service
             android:name=".BaseAppService"
             android:exported="false" >
             <intent-filter>
-                <action android:name="com.blogspot.nataliprograms.baseandroidapp.BaseAppService"
-                     />
+                <action android:name="com.blogspot.nataliprograms.baseandroidapp.BaseAppService" />
             </intent-filter>
         </service>
+
+        <provider
+            android:name="com.blogspot.nataliprograms.baseandroidapp.content.provider.BaseAppContentProvider"
+            android:authorities="com.blogspot.nataliprograms.baseandroidapp" >
+        </provider>
+        
     </application>
 
 </manifest>
